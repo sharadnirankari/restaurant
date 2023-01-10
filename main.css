@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: bisque;
+}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;
+    padding: 10px;
+}
+
+.logo{
+    float:left;
+    padding: 10px;
+
+}
+
+ul li{
+  display: inline-block; 
+  padding:10px;
+  font-size:20px; 
+  font-family:raleway;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+}
+
+a:hover{
+  color:orange; 
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    border: 1px solid grey;
+    padding: 10px;    
+    border-radius: 100px;
+    text-align: center;
+  }
+  .foodImg{
+    border-radius: 50%;
+  }
+
+  .foodImg:hover{
+    background-image: url('https://images.jdmagicbox.com/comp/chandigarh/f9/0172px172.x172.170120153208.k1f9/catalogue/aggarwal-sweets-restaurant-and-bakeries-zirakpur-ho-chandigarh-fast-food-1f89lkr.jpg');
+    opacity: 50%;
+  }
+.welcome{
+    font-size: 32px;
+  }
+form{
+    text-align: center;
+}
+.btnSubmit{
+    padding: 10px 20px;
+    width: 500px;
+
+}
+input[type="text"]{
+    width: 500px;
+    height: 40px;
+}
